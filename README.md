@@ -175,6 +175,19 @@ hide anomalies
 
 Example: `https://envirowatch.vercel.app?city=Los%20Angeles&aqi_gt=150&radius=10&anomalies=1`
 
+## About
+
+EnviroWatch is a real-time environmental monitoring dashboard that combines live air quality data with an intuitive, Homes.ai-inspired interface. Built with modern web technologies, it provides:
+
+- **Real-time Air Quality Monitoring**: Live data from OpenAQ stations worldwide
+- **Anomaly Detection**: Automated scoring system that identifies unusual PM2.5 patterns
+- **Interactive Map**: Visual representation of air quality stations with color-coded markers
+- **Chat Interface**: Natural language commands to filter, search, and explore data
+- **Shareable Links**: URL parameters for easy sharing of specific views and filters
+- **Dark Theme UI**: Modern, glassy card-based design optimized for data visualization
+
+Perfect for environmental researchers, data enthusiasts, or anyone interested in monitoring air quality in their area.
+
 ## License
 
 MIT
