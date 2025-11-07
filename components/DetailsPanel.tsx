@@ -32,10 +32,11 @@ export function DetailsPanel() {
       .then((res) => res.json())
       .then((data) => {
         if (data.error) {
-          // Only log non-404 errors (404 means no history data available, which is normal)
-          if (data.upstreamStatus !== 404) {
+          // Only log actual server errors (500+) - missing data (404) and generic failures are normal
+          if (data.upstreamStatus && data.upstreamStatus >= 500) {
             console.error("History error:", data.error);
           }
+          // Silently handle missing data or generic fetch failures
           setHistory([]);
         } else if (Array.isArray(data)) {
           setHistory(data);
